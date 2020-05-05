@@ -18,7 +18,7 @@ def scrape():
     #Scrapping the NASA news
     url_news="https://mars.nasa.gov/news/?page=0&per_page=40&order=publish_date+desc%2Ccreated_at+desc&search=&category=19%2C165%2C184%2C204&blank_scope=Latest"
     browser.visit(url_news)
-
+    time.sleep(10)
     html=browser.html
     soup=bs(html,"html.parser")
     time.sleep(5)
@@ -41,11 +41,13 @@ def scrape():
     #Scrapping the featured image
     url_image="https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars"
     browser.visit(url_image)
-
+    time.sleep(5)
     browser.click_link_by_partial_text('FULL IMAGE')
+    time.sleep(5)
     browser.click_link_by_partial_text('more info')
-
+    time.sleep(5)
     html=browser.html
+    
     soup=bs(html,"html.parser")
 
     image_url=soup.find("figure",class_="lede").find("a")
@@ -56,11 +58,12 @@ def scrape():
 
     #Scrapping the weather tweet
     url_tweet="https://twitter.com/marswxreport?lang=en"
-    time.sleep(10)
+    
     page = requests.get(url_tweet)
+    time.sleep(10)
     soup = bs(page.text, "html.parser")
     
-    # weather_tweets=soup.select("div[data-testid=tweet]")
+    
    
     weather_tweets = soup.find_all("div",class_="js-tweet-text-container")
      #Finding weather tweets
@@ -91,6 +94,7 @@ def scrape():
     #Scrapping the hemisphere image url
     url_hem="https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars"
     browser.visit(url_hem)
+    time.sleep(5)
     html=browser.html
     soup=bs(html,"html.parser")
     names=soup.find_all("div",class_="description")
