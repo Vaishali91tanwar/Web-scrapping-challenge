@@ -8,4 +8,6 @@ Data Sources:
 
 Beautiful soup was used to scrape the above websites for latest news headline and snippet, featured image, latest weather tweet, fact table and hemisphere images respectively.
 The scrapped data was then stored in MongoDB and was rendered onto the HTML page using flask app. 
-A user interactive button was provided on the page which on clicking would scrape the latest information and render it on the page.
+A user interactive button was provided on the page which on clicking would scrape the latest information and render it on the page.<br><br>
+<img src="mars1.JPG"><br><br>
+<img src="mars2.JPG">
