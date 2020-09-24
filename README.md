@@ -1,5 +1,11 @@
 # Mission to Mars
-Data Sources: 
+
+<img src="Mars_image.jpg">
+<h3>Objective:</h3>
+To build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page.
+
+<h3>Data Sources:</h3> 
+
 1. https://mars.nasa.gov
 2. https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars
 3. https://twitter.com/marswxreport?lang=en
