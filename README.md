@@ -17,6 +17,10 @@ To build a web application that scrapes various websites for data related to the
 <hr>
 <ul>
   <li>Initial scraping of the above websites for latest news headline and snippet, featured image, latest weather tweet, fact table and hemisphere images is done using Jupyter notebook, BeautifulSoup, Pandas and Requests/Splinter.</li>
+  <li>Converting Jupyter notebook into a Python script with a function called scrape that executes all the scraping code from above and returns one Python dictionary containing all of the scraped data.</li>
+
+
+
 Beautiful soup was used to scrape the above websites for latest news headline and snippet, featured image, latest weather tweet, fact table and hemisphere images respectively.
 The scrapped data was then stored in MongoDB and was rendered onto the HTML page using flask app. 
 A user interactive button was provided on the page which on clicking would scrape the latest information and render it on the page.<br><br>
