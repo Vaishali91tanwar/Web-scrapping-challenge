@@ -10,7 +10,7 @@ To build a web application that scrapes various websites for data related to the
 1. <strong>NASA Mars News:</strong> https://mars.nasa.gov
 2. <strong>JPL Mars Space Images- Featured Images:</strong> https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars
 3. <strong>Mars Weather:</strong> https://twitter.com/marswxreport?lang=en
-4. https://space-facts.com/mars 
+4. <strong>Mars Facts:</strong> https://space-facts.com/mars 
 5. https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars
 
 Beautiful soup was used to scrape the above websites for latest news headline and snippet, featured image, latest weather tweet, fact table and hemisphere images respectively.
