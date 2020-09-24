@@ -13,6 +13,7 @@ To build a web application that scrapes various websites for data related to the
 4. <strong>Mars Facts:</strong> https://space-facts.com/mars 
 5. <strong>Mars Hemispheres:</strong> https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars
 
+<h3>Methodology:</h3>
 Beautiful soup was used to scrape the above websites for latest news headline and snippet, featured image, latest weather tweet, fact table and hemisphere images respectively.
 The scrapped data was then stored in MongoDB and was rendered onto the HTML page using flask app. 
 A user interactive button was provided on the page which on clicking would scrape the latest information and render it on the page.<br><br>
