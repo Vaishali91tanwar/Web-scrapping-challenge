@@ -6,7 +6,7 @@ To build a web application that scrapes various websites for data related to the
 
 <h3>Data Sources:</h3> 
 
-1. https://mars.nasa.gov
+1. <strong>NASA Mars News:</strong> https://mars.nasa.gov
 2. https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars
 3. https://twitter.com/marswxreport?lang=en
 4. https://space-facts.com/mars 
