@@ -14,7 +14,7 @@ To build a web application that scrapes various websites for data related to the
 5. <strong>Mars Hemispheres:</strong> https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars
 
 <h3>Methodology:</h3>
-<hr>
+
 <ul>
   <li>Initial scraping of the above websites for latest news headline and snippet, featured image, latest weather tweet, fact table and hemisphere images is done using Jupyter notebook, BeautifulSoup, Pandas and Requests/Splinter.</li><br>
   
@@ -26,13 +26,6 @@ To build a web application that scrapes various websites for data related to the
   
   <li>The HTML file then takes all of the mars data stored into the MongoDB and renders it into the appropriate HTML element as shown.</li>
 
-
-
-
-
-
-Beautiful soup was used to scrape the above websites for latest news headline and snippet, featured image, latest weather tweet, fact table and hemisphere images respectively.
-The scrapped data was then stored in MongoDB and was rendered onto the HTML page using flask app. 
-A user interactive button was provided on the page which on clicking would scrape the latest information and render it on the page.<br><br>
+  <li>A user interactive button was provided on the page which on clicking would scrape the latest information and render it on the page.</li> </ul><br><br>
 <img src="mars1.JPG"><br><br>
 <img src="mars2.JPG">
