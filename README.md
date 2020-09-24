@@ -24,7 +24,7 @@ To build a web application that scrapes various websites for data related to the
   
   <li>Flask app route "/" then queries the Mongo database and pass the mars data into an HTML template to display the data.</li><br>
   
-  <li>The HTML file then takes all of the mars data stored into the MongoDB and renders it into the appropriate HTML element as shown.</li>
+  <li>The HTML file then takes all of the mars data stored into the MongoDB and renders it into the appropriate HTML element as shown.</li><br>
 
   <li>A user interactive button was provided on the page which on clicking would scrape the latest information and render it on the page.</li> </ul><br><br>
 <img src="mars1.JPG"><br><br>
