@@ -16,13 +16,15 @@ To build a web application that scrapes various websites for data related to the
 <h3>Methodology:</h3>
 <hr>
 <ul>
-  <li>Initial scraping of the above websites for latest news headline and snippet, featured image, latest weather tweet, fact table and hemisphere images is done using Jupyter notebook, BeautifulSoup, Pandas and Requests/Splinter.</li><br><br>
+  <li>Initial scraping of the above websites for latest news headline and snippet, featured image, latest weather tweet, fact table and hemisphere images is done using Jupyter notebook, BeautifulSoup, Pandas and Requests/Splinter.</li><br>
   
-  <li>Converting Jupyter notebook into a Python script with a function called scrape that executes all the scraping code from above and returns one Python dictionary containing all of the scraped data.</li>
+  <li>Converting Jupyter notebook into a Python script with a function called scrape that executes all the scraping code from above and returns one Python dictionary containing all of the scraped data.</li><br>
   
-  <li>Flask App route "/scrape" calls the scrape function and stores the returned Python dictionary into the MongoDB</li>
+  <li>Flask App route "/scrape" calls the scrape function and stores the returned Python dictionary into the MongoDB</li><br>
   
-  <li>Flask app route "/" then queries the Mongo database and pass the mars data into an HTML template to display the data.</li>
+  <li>Flask app route "/" then queries the Mongo database and pass the mars data into an HTML template to display the data.</li><br>
+  
+  <li>The HTML file then takes all of the mars data stored into the MongoDB and renders it into the appropriate HTML element as shown.</li>
 
 
 
